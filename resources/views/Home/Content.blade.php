@@ -16,7 +16,7 @@
                         <a href="product-details.html"><img src="assets/img/product-3/1.jpg" alt="#"></a>
                         <div class="product-badge">
                             <ul>
-                                <li class="sale-badge bg-green">For Rent</li>
+                                <li class="sale-badge bg-green">Kiralık</li>
                             </ul>
                         </div>
                         <div class="product-img-location-gallery">
