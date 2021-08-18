@@ -19,5 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 */
-
+//Anasayfa
 Route::get('/',HomeComponent::class);
+
+//Admin
