@@ -20,7 +20,7 @@
                             </li>
                         </ul>
                     </div>
-                    <h1>Diamond Manor Apartment</h1>
+                    <h1>Aycan Manor Apartment</h1>
                     <label><span class="ltn__secondary-color"><i class="flaticon-pin"></i></span> Belmont Gardens, Chicago</label>
                     <h4 class="title-2">Description</h4>
                     <p>Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec
