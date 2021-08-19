@@ -1,9 +1,10 @@
 <?php
 
+use App\Http\Livewire\Admin\AdminPaneliComponent;
 use App\Http\Livewire\HomeComponent;
 use App\Http\Livewire\KonutComponent;
 use Illuminate\Support\Facades\Route;
-
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,8 @@ Route::get('/', function () {
 Route::get('/',HomeComponent::class);
 Route::get('/konut',KonutComponent::class);
 //Admin
+
+
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::get('/admin/dashboard', AdminPaneliComponent::class)->name('admin.dashboard');
+});

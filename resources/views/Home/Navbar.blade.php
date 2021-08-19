@@ -236,25 +236,52 @@
                 <!-- user-menu -->
                 <div class="ltn__drop-menu user-menu">
                     <ul>
-                        <li>
-                            <a href="#"><i class="icon-user"></i></a>
-                            <ul>
-                                <li><a href="login.html">Sign in</a></li>
-                                <li><a href="register.html">Register</a></li>
-                                <li><a href="account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                            </ul>
-                        </li>
+                        <!-- *****LOGIN-REGISTER- OTOMATİK GİRME KODLARI***** -->
+                        @if(Route::has('login'))
+                        @auth
+                            @if(Auth::user()->utype === 'ADM')
+                                <li class="menu-item menu-item-has-children parent">
+                                    <a title="My Account" href="#">My Account({{Auth::user()->name}}) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="submenu curency">
+                                        <li class="menu-item">
+                                            <a title="Dashboard" href="{{ route('admin.dashboard') }}">Dashboard</a>
+                                        </li>
+
+                                        <li class="menu-item">
+                                            <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                                        </li>
+                                        <form id="logout-form" method="POST" action="{{ route('logout') }}">
+                                            @csrf
+                                        </form>
+                                    </ul>
+                                </li>
+                            @else
+                                <li class="menu-item menu-item-has-children parent">
+                                    <a title="My Account" href="#">My Account({{Auth::user()->name}}) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                    <ul class="submenu curency">
+                                        <li class="menu-item">
+                                            <a title="Dashboard" href="{{ route('user.dashboard') }}">Dashboard</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                                        </li>
+                                        <form id="logout-form" method="POST" action="{{ route('logout') }}"
+                                            @csrf
+                                        </form>
+                                    </ul>
+                                </li>
+                            @endif
+
+                        @else
+                            <li class="menu-item"><a title="Giriş Yap" href="{{route('login')}}"><i class="icon-user"></i></a></li>
+                        @endif
+
+                        @endif
+                        <!-- *****LOGIN-REGISTER- OTOMATİK GİRME KODLARI***** -->
+
                     </ul>
                 </div>
-                <!-- mini-cart -->
-                <div class="mini-cart-icon">
-                    <a href="#ltn__utilize-cart-menu" class="ltn__utilize-toggle">
-                        <i class="icon-shopping-cart"></i>
-                        <sup>2</sup>
-                    </a>
-                </div>
-                <!-- mini-cart -->
+
                 <!-- Mobile Menu Button -->
                 <div class="mobile-menu-toggle d-xl-none">
                     <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
