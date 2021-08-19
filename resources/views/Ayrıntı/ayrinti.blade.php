@@ -30,21 +30,33 @@
                     <div class="ltn__blog-meta">
                         <ul>
                             <li class="ltn__blog-category">
-                                <a href="#">Featured</a>
-                            </li>
-                            <li class="ltn__blog-category">
                                 <a class="bg-orange" href="#">For Rent</a>
-                            </li>
-                            <li class="ltn__blog-date">
-                                <i class="far fa-calendar-alt"></i>May 19, 2021
-                            </li>
-                            <li>
-                                <a href="#"><i class="far fa-comments"></i>35 Comments</a>
                             </li>
                         </ul>
                     </div>
                     <h1>Aycan Manor Apartment</h1>
                     <label><span class="ltn__secondary-color"><i class="flaticon-pin"></i></span> Belmont Gardens, Chicago</label>
+
+                    <h4 class="title-2">From Our Gallery</h4>
+                    <div class="ltn__property-details-gallery mb-30">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="{{asset('assets/img/others/14.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/14.jpg')}}" alt="Image">
+                                </a>
+                                <a href="{{asset('assets/img/others/15.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/15.jpg')}}" alt="Image">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="{{asset('assets/img/others/16.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/16.jpg')}}" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
                     <h4 class="title-2">Description</h4>
                     <p>Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec
                         Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper
@@ -149,24 +161,7 @@
                         </ul>
                     </div>
 
-                    <h4 class="title-2">From Our Gallery</h4>
-                    <div class="ltn__property-details-gallery mb-30">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="{{asset('assets/img/others/14.jpg')}}" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="{{asset('assets/img/others/14.jpg')}}" alt="Image">
-                                </a>
-                                <a href="{{asset('assets/img/others/15.jpg')}}" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="{{asset('assets/img/others/15.jpg')}}" alt="Image">
-                                </a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="{{asset('assets/img/others/16.jpg')}}" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="{{asset('assets/img/others/16.jpg')}}" alt="Image">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
             </div>
