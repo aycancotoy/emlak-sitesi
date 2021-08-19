@@ -1,3 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Quarter - Real Estate HTML Template</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Place favicon.png in the root directory -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <!-- Font Icons css -->
+    <link rel="stylesheet" href="css/font-icons.css">
+    <!-- plugins css -->
+    <link rel="stylesheet" href="css/plugins.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
 <!-- SHOP DETAILS AREA START -->
 <div class="ltn__shop-details-area pb-10">
     <div class="container">
@@ -1078,3 +1101,12 @@
     </div>
 </div>
 <!-- SHOP DETAILS AREA END -->
+
+<!-- All JS Plugins -->
+  <script src="js/plugins.js"></script>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+
+
+</body>
+</html>
