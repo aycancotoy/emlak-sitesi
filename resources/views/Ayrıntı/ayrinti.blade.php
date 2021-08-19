@@ -130,16 +130,16 @@
                     <div class="ltn__property-details-gallery mb-30">
                         <div class="row">
                             <div class="col-md-6">
-                                <a href="img/others/14.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/others/14.jpg" alt="Image">
+                                <a href="{{asset('assets/img/others/14.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/14.jpg')}}" alt="Image">
                                 </a>
-                                <a href="img/others/15.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/others/15.jpg" alt="Image">
+                                <a href="{{asset('assets/img/others/15.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/15.jpg')}}" alt="Image">
                                 </a>
                             </div>
                             <div class="col-md-6">
-                                <a href="img/others/16.jpg" data-rel="lightcase:myCollection">
-                                    <img class="mb-30" src="img/others/16.jpg" alt="Image">
+                                <a href="{{asset('assets/img/others/16.jpg')}}" data-rel="lightcase:myCollection">
+                                    <img class="mb-30" src="{{asset('assets/img/others/16.jpg')}}" alt="Image">
                                 </a>
                             </div>
                         </div>
@@ -281,7 +281,7 @@
                                     <div class="row">
                                         <div class="col-lg-7">
                                             <div class="apartments-plan-img">
-                                                <img src="img/others/10.png" alt="#">
+                                                <img src="{{asset('assets/img/others/10.png')}}" alt="#">
                                             </div>
                                         </div>
                                         <div class="col-lg-5">
@@ -323,7 +323,7 @@
                                     <div class="row">
                                         <div class="col-lg-7">
                                             <div class="apartments-plan-img">
-                                                <img src="img/others/10.png" alt="#">
+                                                <img src="{{asset('assets/img/others/10.png')}}" alt="#">
                                             </div>
                                         </div>
                                         <div class="col-lg-5">
@@ -365,7 +365,7 @@
                                     <div class="row">
                                         <div class="col-lg-7">
                                             <div class="apartments-plan-img">
-                                                <img src="img/others/10.png" alt="#">
+                                                <img src="{{asset('assets/img/others/10.png')}}" alt="#">
                                             </div>
                                         </div>
                                         <div class="col-lg-5">
@@ -407,7 +407,7 @@
                                     <div class="row">
                                         <div class="col-lg-7">
                                             <div class="apartments-plan-img">
-                                                <img src="img/others/10.png" alt="#">
+                                                <img src="{{asset('assets/img/others/10.png')}}" alt="#">
                                             </div>
                                         </div>
                                         <div class="col-lg-5">
@@ -449,7 +449,7 @@
                     <!-- APARTMENTS PLAN AREA END -->
 
                     <h4 class="title-2">Property Video</h4>
-                    <div class="ltn__video-bg-img ltn__video-popup-height-500 bg-overlay-black-50 bg-image mb-60" data-bg="img/others/5.jpg">
+                    <div class="ltn__video-bg-img ltn__video-popup-height-500 bg-overlay-black-50 bg-image mb-60" data-bg="{{asset('assets/img/others/5.jpg')}}">
                         <a class="ltn__video-icon-2 ltn__video-icon-2-border---" href="https://www.youtube.com/embed/eWUxqVFBq74?autoplay=1&showinfo=0" data-rel="lightcase:myCollection">
                             <i class="fa fa-play"></i>
                         </a>
@@ -475,7 +475,7 @@
                                     <li>
                                         <div class="ltn__comment-item clearfix">
                                             <div class="ltn__commenter-img">
-                                                <img src="img/testimonial/1.jpg" alt="Image">
+                                                <img src="{{asset('assets/img/testimonial/1.jpg')}}" alt="Image">
                                             </div>
                                             <div class="ltn__commenter-comment">
                                                 <h6><a href="#">Adam Smit</a></h6>
@@ -496,7 +496,7 @@
                                     <li>
                                         <div class="ltn__comment-item clearfix">
                                             <div class="ltn__commenter-img">
-                                                <img src="img/testimonial/3.jpg" alt="Image">
+                                                <img src="{{asset('assets/img/testimonial/3.jpg')}}" alt="Image">
                                             </div>
                                             <div class="ltn__commenter-comment">
                                                 <h6><a href="#">Adam Smit</a></h6>
@@ -517,7 +517,7 @@
                                     <li>
                                         <div class="ltn__comment-item clearfix">
                                             <div class="ltn__commenter-img">
-                                                <img src="img/testimonial/2.jpg" alt="Image">
+                                                <img src="{{asset('assets/img/testimonial/2.jpg')}}" alt="Image">
                                             </div>
                                             <div class="ltn__commenter-comment">
                                                 <h6><a href="#">Adam Smit</a></h6>
@@ -582,10 +582,10 @@
                         <div class="col-xl-6 col-sm-6 col-12">
                             <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                 <div class="product-img">
-                                    <a href="product-details.html"><img src="img/product-3/1.jpg" alt="#"></a>
+                                    <a href="product-details.html"><img src="{{asset('assets/img/product-3/1.jpg')}}" alt="#"></a>
                                     <div class="real-estate-agent">
                                         <div class="agent-img">
-                                            <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                            <a href="team-details.html"><img src="{{asset('assets/img/blog/author.jpg')}}" alt="#"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -644,10 +644,10 @@
                         <div class="col-xl-6 col-sm-6 col-12">
                             <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                 <div class="product-img">
-                                    <a href="product-details.html"><img src="img/product-3/2.jpg" alt="#"></a>
+                                    <a href="product-details.html"><img src="{{asset('assets/img/product-3/2.jpg')}}" alt="#"></a>
                                     <div class="real-estate-agent">
                                         <div class="agent-img">
-                                            <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                            <a href="team-details.html"><img src="{{asset('assets/img/blog/author.jpg')}}" alt="#"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -710,7 +710,7 @@
                     <!-- Author Widget -->
                     <div class="widget ltn__author-widget">
                         <div class="ltn__author-widget-inner text-center">
-                            <img src="img/team/4.jpg" alt="Image">
+                            <img src="{{asset('assets/img/team/4.jpg')}}" alt="Image">
                             <h5>Rosalina D. Willaimson</h5>
                             <small>Traveller/Photographer</small>
                             <div class="product-ratting">
@@ -760,7 +760,7 @@
                             <li>
                                 <div class="top-rated-product-item clearfix">
                                     <div class="top-rated-product-img">
-                                        <a href="product-details.html"><img src="img/product/1.png" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product/1.png')}}" alt="#"></a>
                                     </div>
                                     <div class="top-rated-product-info">
                                         <div class="product-ratting">
@@ -783,7 +783,7 @@
                             <li>
                                 <div class="top-rated-product-item clearfix">
                                     <div class="top-rated-product-img">
-                                        <a href="product-details.html"><img src="img/product/2.png" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product/2.png')}}" alt="#"></a>
                                     </div>
                                     <div class="top-rated-product-info">
                                         <div class="product-ratting">
@@ -806,7 +806,7 @@
                             <li>
                                 <div class="top-rated-product-item clearfix">
                                     <div class="top-rated-product-img">
-                                        <a href="product-details.html"><img src="img/product/3.png" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product/3.png')}}" alt="#"></a>
                                     </div>
                                     <div class="top-rated-product-info">
                                         <div class="product-ratting">
@@ -847,10 +847,10 @@
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product-3/6.jpg" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product-3/6.jpg')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <div class="agent-img">
-                                                <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                                <a href="team-details.html"><img src="{{asset('assets/img/blog/author.jpg')}}" alt="#"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -884,10 +884,10 @@
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product-3/4.jpg" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product-3/4.jpg')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <div class="agent-img">
-                                                <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                                <a href="team-details.html"><img src="{{asset('assets/img/blog/author.jpg')}}" alt="#"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -921,10 +921,10 @@
                             <div class="col-12">
                                 <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                                     <div class="product-img">
-                                        <a href="product-details.html"><img src="img/product-3/5.jpg" alt="#"></a>
+                                        <a href="product-details.html"><img src="{{asset('assets/img/product-3/5.jpg')}}" alt="#"></a>
                                         <div class="real-estate-agent">
                                             <div class="agent-img">
-                                                <a href="team-details.html"><img src="img/blog/author.jpg" alt="#"></a>
+                                                <a href="team-details.html"><img src="{{asset('assets/img/blog/author.jpg')}}" alt="#"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -964,7 +964,7 @@
                             <li>
                                 <div class="popular-post-widget-item clearfix">
                                     <div class="popular-post-widget-img">
-                                        <a href="blog-details.html"><img src="img/team/5.jpg" alt="#"></a>
+                                        <a href="blog-details.html"><img src="{{asset('assets/img/team/5.jpg')}}" alt="#"></a>
                                     </div>
                                     <div class="popular-post-widget-brief">
                                         <h6><a href="blog-details.html">Lorem ipsum dolor sit
@@ -982,7 +982,7 @@
                             <li>
                                 <div class="popular-post-widget-item clearfix">
                                     <div class="popular-post-widget-img">
-                                        <a href="blog-details.html"><img src="img/team/6.jpg" alt="#"></a>
+                                        <a href="blog-details.html"><img src="{{asset('assets/img/team/6.jpg')}}" alt="#"></a>
                                     </div>
                                     <div class="popular-post-widget-brief">
                                         <h6><a href="blog-details.html">Lorem ipsum dolor sit
@@ -1000,7 +1000,7 @@
                             <li>
                                 <div class="popular-post-widget-item clearfix">
                                     <div class="popular-post-widget-img">
-                                        <a href="blog-details.html"><img src="img/team/7.jpg" alt="#"></a>
+                                        <a href="blog-details.html"><img src="{{asset('assets/img/team/7.jpg')}}" alt="#"></a>
                                     </div>
                                     <div class="popular-post-widget-brief">
                                         <h6><a href="blog-details.html">Lorem ipsum dolor sit
@@ -1018,7 +1018,7 @@
                             <li>
                                 <div class="popular-post-widget-item clearfix">
                                     <div class="popular-post-widget-img">
-                                        <a href="blog-details.html"><img src="img/team/8.jpg" alt="#"></a>
+                                        <a href="blog-details.html"><img src="{{asset('assets/img/team/8.jpg')}}" alt="#"></a>
                                     </div>
                                     <div class="popular-post-widget-brief">
                                         <h6><a href="blog-details.html">Lorem ipsum dolor sit
@@ -1070,7 +1070,7 @@
                     </div>
                     <!-- Banner Widget -->
                     <div class="widget ltn__banner-widget d-none">
-                        <a href="shop.html"><img src="img/banner/2.jpg" alt="#"></a>
+                        <a href="shop.html"><img src="{{asset('assets/img/banner/2.jpg')}}" alt="#"></a>
                     </div>
                 </aside>
             </div>
